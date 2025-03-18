@@ -1,0 +1,13 @@
+h1{
+    color:red
+}
+ul{
+    color:blueviolet
+}
+span{
+    background-color: aqua;
+}
+q{
+    text-transform: lowercase;
+    color: purple;
+}
