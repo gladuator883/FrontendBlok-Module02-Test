@@ -14,11 +14,18 @@
 .header {
     display: flex;
     border-bottom: 1px solid #000;
+    padding-top: 10px;
     padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
     font-size:20px;
 }
 .logo {
     margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px ;
     text-decoration: none;
     color:lightgreen;
     background-color: rebeccapurple;
@@ -32,10 +39,11 @@ ul {
     margin: 0;
     
 }
-ul > li {
-    margin-right: 10px;
+ul > li:not(:last-child) {
+    margin-right: 30px;
     
 }
+
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -43,14 +51,16 @@ ul > li {
     border-bottom: 1px solid #000;
 }
 .aside {
-    border-right: 1px solid #000;
-    padding-right: 20px;
+    background-color:lavender;
+    padding:10px 20px;
 }
 .post {
     padding-bottom: 20px;
 }
-.foot{
+.footer{
     font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .aaa{  
     color: rebeccapurple;
@@ -72,3 +82,17 @@ h3{
     text-transform: uppercase;
     letter-spacing: 0.01em;
  }
+.s{
+    background-color:lavender;
+    padding:5px 20px;
+    margin-bottom: 20px;
+}
+.s:nth-last-of-type(3){
+    background-color:moccasin;
+}
+
+.link{
+   background-color: rebeccapurple;
+   color:white;
+   padding: 8px 15px;
+}
